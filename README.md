@@ -1,41 +1,80 @@
-# Sandeep Kola — Blue Glass Portfolio
+# Sandeep Kola - Blue Glass Portfolio
 
-A responsive professional portfolio using a blue liquid-glass / glassmorphism visual theme, based on the supplied design reference.
+A responsive professional portfolio website using a blue liquid-glass / glassmorphism visual theme.
 
 ## Included
+
 - Responsive landing page and navigation
 - Frosted-glass profile card using the supplied portrait
 - About, skills, projects, experience, education and certifications
 - Resume PDF download
 - Functional email and phone links
+- Floating contact window
 - Scroll reveal animations and active navigation
-- Python local development server
+- Modern blue liquid-glass interface
+- GitHub Pages deployment
 
-## Run locally with Python
-1. Extract the ZIP.
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Python
+- Git and GitHub
+- GitHub Pages
+
+## Run Locally with Python
+
+1. Clone the repository.
+
 2. Open the project folder in VS Code.
+
 3. Run:
 
-   ```bash
-   python server.py
-   ```
+```bash
+python -m http.server 8000
+```
 
-4. Open `http://127.0.0.1:8000` if your browser does not open automatically.
+4. Open `http://127.0.0.1:8000` in your browser.
 
-No Python packages are required. Google Fonts are loaded from the internet; the site itself works without a build step.
+No Python packages are required. Google Fonts are loaded from the internet; the website itself works without a build step.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository, e.g. `sandeep-portfolio`.
-2. Upload the contents of this folder (not the enclosing ZIP).
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then Save.
+## Project Structure
 
-The deployed website will be available at:
-`https://YOUR-USERNAME.github.io/sandeep-portfolio/`
+```text
+sandeep-portfolio/
+│
+├── assets/
+│   ├── Sandeep-Kola-Resume.pdf
+│   ├── glass-theme-reference.png
+│   └── sandeep-profile.jpg
+│
+├── index.html
+├── script.js
+├── style.css
+└── README.md
+```
 
-## Update before publishing
-- Verify the phone number and email address.
-- Add GitHub / LinkedIn URLs if you want them displayed.
-- Add live project links when available.
-- Keep the resume PDF current.
+## Live Website
+
+Your portfolio is hosted using GitHub Pages.
+
+https://kolasandeep-07.github.io/sandeep-portfolio/
+
+## Repository
+
+https://github.com/kolaSandeep-07/sandeep-portfolio
+
+## Contact
+
+- Email: sandeepkola004@gmail.com
+- Phone: +91 99489 99723
+- Location: Kakinada, India
+
+## About Me
+
+I'm Sandeep Kola, a Python Developer with a foundation in Computer Science and Business Systems, interested in full-stack development, data analytics and AI-driven solutions.
+
+---
+
+© 2026 Sandeep Kola. All rights reserved.
