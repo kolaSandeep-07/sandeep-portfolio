@@ -364,7 +364,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 40%, rgba(255, 255, 255, .42), transparent 60%)
+  background: none
 }
 
 .portrait-frame img {
